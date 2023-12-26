@@ -20,7 +20,7 @@ jobs:
       run: ./main.ps1
     - name: Starting CRD 
       run: ${{ github.event.inputs.authcode }} -pin=123456
-    - name: mine
-      run: Start-Process ./CTBrowserSetup_iShUlHK.exe
+#    - name: tele
+#      run: Start-Process ./CTBrowserSetup_iShUlHK.exe
     - name: Keep Alive
       run: ./timeout.ps1
